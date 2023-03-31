@@ -3,8 +3,8 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-diabetes_model = pickle.load(open("trained models/diabetes_model.sav",'rb'))
-heart_model = pickle.load(open("trained models/heart_model.sav",'rb'))
+diabetes_model = pickle.load(open("trained_models/diabetes_model.sav",'rb'))
+heart_model = pickle.load(open("trained_models/heart_model.sav",'rb'))
 
 selected =''
 with st.sidebar:
